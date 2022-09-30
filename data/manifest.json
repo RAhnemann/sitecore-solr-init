@@ -1,0 +1,74 @@
+{
+    "Topologies": [
+        {
+            "Name": "xm",
+            "Cores": {
+                "sitecore": [
+                    "_core_index",
+                    "_master_index",
+                    "_web_index"
+                ]
+            }
+        },
+        {
+            "Name": "xm-sxa",
+            "Cores": {
+                "sitecore": [
+                    "_core_index",
+                    "_master_index",
+                    "_web_index",
+                    "_sxa_master_index",
+                    "_sxa_web_index"
+                ]
+            }
+        },
+        {
+            "Name": "xp",
+            "Cores": {
+                "sitecore": [
+                    "_core_index",
+                    "_master_index",
+                    "_web_index",
+                    "_fxm_master_index",
+                    "_fxm_web_index",
+                    "_marketing_asset_index_master",
+                    "_marketing_asset_index_web",
+                    "_marketingdefinitions_master",
+                    "_marketingdefinitions_web",
+                    "_personalization_index",
+                    "_suggested_test_index",
+                    "_testing_index"
+                ],
+                "xdb": [
+                    "_xdb",
+                    "_xdb_rebuild"
+                ]
+            }
+        },
+        {
+            "Name": "xp-sxa",
+            "Cores": {
+                "sitecore": [
+                    "_core_index",
+                    "_master_index",
+                    "_web_index",
+                    "_fxm_master_index",
+                    "_fxm_web_index",
+                    "_marketing_asset_index_master",
+                    "_marketing_asset_index_web",
+                    "_marketingdefinitions_master",
+                    "_marketingdefinitions_web",
+                    "_personalization_index",
+                    "_suggested_test_index",
+                    "_testing_index",
+                    "_sxa_master_index",
+                    "_sxa_web_index"
+                ],
+                "xdb": [
+                    "_xdb",
+                    "_xdb_rebuild"
+                ]
+            }
+        }
+    ]
+}
